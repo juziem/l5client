@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="bt" Content="Добавить" HorizontalAlignment="Left" Margin="114,348,0,0" VerticalAlignment="Top" Width="128" Click="bt_Click" Height="36"/>
+        <ListBox x:Name="list" HorizontalAlignment="Left" Height="277" Margin="428,62,0,0" VerticalAlignment="Top" Width="327"/>
+        <TextBox x:Name="tb" HorizontalAlignment="Left" Height="160" Margin="33,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" Text="Введите строку"/>
+        <Button x:Name="con" Content="Подключить" HorizontalAlignment="Left" Height="61" Margin="33,29,0,0" VerticalAlignment="Top" Width="115" Click="con_Click"/>
+        <Button x:Name="dis" Content="Отключить" HorizontalAlignment="Left" Height="61" Margin="193,29,0,0" VerticalAlignment="Top" Width="115" Click="dis_Click"/>
+
     </Grid>
 </Window>
